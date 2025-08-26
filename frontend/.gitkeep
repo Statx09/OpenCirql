@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OpenCirql</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>🌐 OpenCirql</h1>
+    <p class="tagline">Open conversations. Transparent rewards.</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Conversations without walls</h2>
+      <p>Search topics, meet real people, and join live calls.</p>
+      <a class="btn btn-green" href="#" id="joinVideoBtn">Join Live Video</a>
+    </section>
+
+    <section>
+      <h3>🔴 Livecasts</h3>
+      <div id="livecastsTrack"></div>
+    </section>
+
+    <section>
+      <h3>👥 Profiles by Topic</h3>
+      <div id="profilesTrack"></div>
+    </section>
+
+    <section>
+      <h3>💰 Open Pool Ledger</h3>
+      <div class="cards">
+        <div class="card">
+          <div class="card-title">💳 Stripe Pool</div>
+          <div class="card-value">$0.00</div>
+          <div class="card-sub">Live balance (placeholder)</div>
+        </div>
+        <div class="card">
+          <div class="card-title">🪙 Solana Pool</div>
+          <div class="card-value">1.8 SOL</div>
+          <div class="card-sub small">Wallet: 4c2Uhh2NSyYymBsQiB3eb5D8A5iauv8cc98HqiRBJmAz</div>
+        </div>
+        <div class="card">
+          <div class="card-title">✅ Payouts to Users</div>
+          <div class="card-value">$0.00</div>
+          <div class="card-sub">Weekly distributions (open ledger)</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <a class="btn btn-green btn-lg" href="#" id="createSpaceBtn">Create my space</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 OpenCirql — Open source for everyone.</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
