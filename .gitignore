@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files (never expose secrets)
+.env
